@@ -13,7 +13,7 @@ Role Variables
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-    mysql_root_password: CCPQGcSV
+    mysql_root_password: XXXXX
     
 Set the root password
 
@@ -38,14 +38,9 @@ Example Playbook
       become: true
       become_method: sudo
       roles:
-        - mosufy.percona
+        - serenova.percona
 
 License
 -------
 
 This codebase is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
-
-Author Information
-------------------
-
-For any issues with installation or getting this to work, send an email to: [mosufy@gmail.com](mailto:mosufy@gmail.com)
