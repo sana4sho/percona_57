@@ -2,7 +2,7 @@
 # defaults file for percona
 
 # Set MySQL root password
-mysql_root_password: L1v30ps!
+mysql_root_password: XXXXXX
 
 # my.cnf config
 mysql_slow_query_log: 0
